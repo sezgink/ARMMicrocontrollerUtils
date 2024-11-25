@@ -2,7 +2,7 @@
 
 #define F 1.0 // State transition coefficient for a simple scalar system
 #define F_transpose 1.0 // Transpose of F, same as F for scalars
-#define B 0.0 // Control matrix coefficient
+#define B 1.0 // Control matrix coefficient
 
 typedef struct {
     float Q; // Process noise covariance
