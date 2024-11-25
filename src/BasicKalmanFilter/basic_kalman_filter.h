@@ -1,3 +1,5 @@
+#pragma once
+
 typedef struct {
     float Q; // Process noise covariance
     float R; // Measurement noise covariance
