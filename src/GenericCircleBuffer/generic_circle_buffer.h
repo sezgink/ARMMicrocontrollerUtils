@@ -14,7 +14,7 @@ typedef struct {
 } GenericCircleBuffer;
 
 // Function declarations
-void gb_init(GenericCircleBuffer* gb, size_t element_size, size_t capacity);
+bool gb_init(GenericCircleBuffer* gb, size_t element_size, size_t capacity);
 void gb_free(GenericCircleBuffer* gb);
 bool gb_push(GenericCircleBuffer* gb, const void* data);
 bool gb_pop(GenericCircleBuffer* gb, void* data);
